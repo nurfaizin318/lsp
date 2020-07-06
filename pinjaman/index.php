@@ -20,10 +20,10 @@
 </head>
 
 <body>
-  <h1 class="m-5">Data Kasir</h1>
+  <h1 class="m-5">Data Pinjam</h1>
   <div style="width:100%;justify-content: center;align-items: center;padding: 20px;">
-    <h1>Tambah Kasir </h1>
-    <a href="tambah.php"><button type="button" class="btn btn-primary">tambah Kasir</button></a>
+    <h1>Tambah Pinjaman</h1>
+    <a href="tambah.php"><button type="button" class="btn btn-primary">tambah Pinjaman</button></a>
     <table class="table w-50 mt-5 text-center ">
       <thead>
         <tr>
@@ -46,7 +46,7 @@ while($d = mysqli_fetch_array($data)){
         <tr>
           <td><?php echo $no++; ?></td>
 
-          <td><?php echo $d["no_pinjam "]; ?></td>
+          <td><?php echo $d["no_pinjam"]; ?></td>
           <td><?php echo $d["tanggal"]; ?></td>
           <td><?php echo $d["no_anggota"]; ?></td>
           <td><?php echo $d["jml_pinjam"]; ?></td>
