@@ -34,10 +34,10 @@
         <p class="lead">Selamat Datang    <?Php echo $_SESSION['username']; ?> Anda Telah login</p>
         <hr class="my-4">
      
-        <a class="btn btn-primary btn-lg" href="mahasiswa" role="button">anggota</a>
-        <a class="btn btn-primary btn-lg" href="#" role="button">kasir</a>
-        <a class="btn btn-primary btn-lg" href="#" role="button">pinjaman</a>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Simpan</a>
+        <a class="btn btn-primary btn-lg" href="anggota" role="button">anggota</a>
+        <a class="btn btn-primary btn-lg" href="kasir" role="button">kasir</a>
+        <a class="btn btn-primary btn-lg" href="pinjaman" role="button">pinjaman</a>
+        <a class="btn btn-primary btn-lg" href="simpan" role="button">Simpan</a>
       </div>
 
      <a href="log_out.php" ><button type="button" class="btn btn-secondary m-5" data-toggle="tooltip" data-placement="top" title="log out">

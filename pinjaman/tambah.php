@@ -23,7 +23,7 @@
 ?>
 <body >
 <div class="jumbotron">
-  <h1 class="display-4">Tambah Kasir!</h1>
+  <h1 class="display-4">Tambah Pinjaman!</h1>
   <hr class="my-4">
   <form action="tambah_aksi.php" method="post">
              <div class="form-group " style="width: 300px;">
